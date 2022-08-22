@@ -9,7 +9,7 @@ import numpy as np
 # Keras
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.models import load_model
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 
 
 # Flask utils
